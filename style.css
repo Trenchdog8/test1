@@ -1,0 +1,37 @@
+/* Fondo negro para toda la página */
+body {
+    background-color: #000000; /* Fondo negro */
+    color: #c200c2; /* Texto en color morado */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para los encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold; /* Asegura que los encabezados estén en negrita */
+    color: #ff00ff; /* Color morado */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #d400d4; /* Enlaces en color morado */
+    text-decoration: none; /* Eliminar subrayado */
+}
+
+/* Cambiar color de los enlaces cuando se pasa el mouse (hover) */
+a:hover {
+    color: #9933cc; /* Morado más claro al pasar el mouse */
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+/* Estilo para los botones */
+button, .btn {
+    background-color: #800080; /* Botones morados */
+    color: white; /* Texto blanco en los botones */
+    font-weight: bold; /* Texto de los botones en negrita */
+}
+
+/* Cambiar estilo de los botones al pasar el mouse */
+button:hover, .btn:hover {
+    background-color: #9933cc; /* Morado más claro */
+    color: #ffffff; /* Asegura que el texto permanezca blanco */
+}
